@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Abhisek Kumar is a data engineer in Germany building trusted cloud data systems for automotive and intelligent applications." />
+    <meta name="theme-color" content="#080b0f" />
+    <title>Abhisek Kumar — Data Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23080b0f'/%3E%3Cpath d='M6 22 11 9l5 13 5-13 5 13' fill='none' stroke='%23f4b860' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <canvas id="signal-canvas" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Abhisek Kumar, home">
+        <span class="wordmark-mark">AK</span>
+        <span class="wordmark-text">Abhisek Kumar</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#systems">Systems</a>
+        <a href="#experience">Experience</a>
+        <a href="#ai-lab">AI Lab</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-status" href="#experience">
+        <span class="status-pulse" aria-hidden="true"></span>
+        Bosch · Oct 2026
+      </a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="hero-hello">hi, Abhisek here.<span class="type-caret" aria-hidden="true"></span></p>
+          <p class="eyebrow">Data engineering · Germany</p>
+          <h1 id="hero-title">I build systems<br />intelligence can trust.</h1>
+          <p class="hero-summary">
+            I design cloud data platforms, automated pipelines, analytics-ready models, and decision tools—from enterprise-scale systems to connected-vehicle telemetry.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#systems">Explore selected work</a>
+            <a class="button button-secondary" href="./Abhisek-Kumar-CV.pdf" target="_blank" rel="noopener">View résumé <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <figure class="portrait-window reveal">
+          <div class="portrait-frame">
+            <img src="./abhisek-portrait.jpg" alt="Abhisek Kumar standing on a sunlit garden path surrounded by green foliage" width="960" height="1200" />
+            <span class="portrait-index" aria-hidden="true">PORTRAIT / 2026</span>
+          </div>
+          <figcaption>
+            <span>Abhisek Kumar</span>
+            <span>Data engineer · Germany</span>
+          </figcaption>
+        </figure>
+
+        <div class="proof-strip reveal" aria-label="Key professional signals">
+          <div><span class="proof-label">Focus</span><strong>Data engineering + analytics</strong></div>
+          <div><span class="proof-label">Domain</span><strong>Automotive systems</strong></div>
+          <div><span class="proof-label">Stack</span><strong>Azure · Databricks · PySpark</strong></div>
+          <div><span class="proof-label">Direction</span><strong>Applied AI engineering</strong></div>
+        </div>
+      </section>
+
+      <section class="section" id="systems" aria-labelledby="systems-title">
+        <div class="section-index reveal"><span>01</span><span>Selected systems</span></div>
+        <div class="section-heading reveal">
+          <h2 id="systems-title">Evidence, not a skill cloud.</h2>
+          <p>Three systems that show how I structure messy, high-volume signals into reliable data products.</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project project-featured reveal">
+            <div class="project-number">SYS—01</div>
+            <div class="project-main">
+              <div class="project-meta"><span>Lakehouse · Streaming · Governance</span><span>Flagship</span></div>
+              <h3>Connected Vehicle Data Platform</h3>
+              <p class="project-lead">A production-oriented lakehouse for connected-vehicle telemetry, designed to support batch and streaming ingestion, data quality, governance, analytics, and future ML workloads.</p>
+              <div class="architecture" aria-label="Project architecture: telemetry sources flow through bronze, silver, and gold layers to analytics and machine learning">
+                <div class="architecture-node">Telemetry</div><span>→</span>
+                <div class="architecture-node">Bronze</div><span>→</span>
+                <div class="architecture-node">Silver</div><span>→</span>
+                <div class="architecture-node">Gold</div><span>→</span>
+                <div class="architecture-node architecture-node-accent">Analytics + ML</div>
+              </div>
+              <div class="project-footer">
+                <ul class="tags" aria-label="Technologies"><li>Azure Databricks</li><li>Delta Lake</li><li>PySpark</li><li>CI/CD</li></ul>
+                <a class="text-link" href="https://github.com/Abhiseksingh2240/connected-vehicle-data-platform" target="_blank" rel="noopener">Inspect repository <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">SYS—02</div>
+            <div class="project-main">
+              <div class="project-meta"><span>Data product · EV telemetry</span><span>Portfolio</span></div>
+              <h3>EV Battery &amp; Charging Intelligence</h3>
+              <p class="project-lead">An end-to-end data product that converts battery and charging events into trustworthy datasets for health analysis, charging behavior, warranty risk, and fleet operations.</p>
+              <details>
+                <summary>System brief <span aria-hidden="true">＋</span></summary>
+                <div class="detail-grid">
+                  <p><span>Problem</span>Vehicle events arrive with different quality, timing, and operational meaning.</p>
+                  <p><span>Approach</span>Medallion layers create traceable transformations from raw events to analytics-ready products.</p>
+                  <p><span>Next layer</span>Time-series features and an early-warning model for battery degradation.</p>
+                </div>
+              </details>
+              <div class="project-footer">
+                <ul class="tags" aria-label="Technologies"><li>Python</li><li>SQL</li><li>Medallion architecture</li></ul>
+                <a class="text-link" href="https://github.com/Abhiseksingh2240/EV-Battery-Health-and-Charging-Intelligence-Platform" target="_blank" rel="noopener">Inspect repository <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">SYS—03</div>
+            <div class="project-main">
+              <div class="project-meta"><span>Applied AI · Public sector</span><span>Academic project</span></div>
+              <h3>AI-Assisted Radiation Safety Assessment</h3>
+              <p class="project-lead">An AI-assisted report-assessment solution developed in ServiceNow for the Norwegian Radiation and Nuclear Safety Authority during my NTNU exchange.</p>
+              <details>
+                <summary>Why it matters <span aria-hidden="true">＋</span></summary>
+                <div class="detail-grid">
+                  <p><span>Context</span>A consequential domain where AI must support—not obscure—expert judgment.</p>
+                  <p><span>Signal</span>Experience translating an institutional workflow into an AI-supported solution.</p>
+                  <p><span>Principle</span>Keep traceability, human review, and clear limitations visible in the workflow.</p>
+                </div>
+              </details>
+              <div class="project-footer">
+                <ul class="tags" aria-label="Technologies"><li>AI workflow</li><li>ServiceNow</li><li>Human review</li></ul>
+                <a class="text-link" href="https://github.com/Abhiseksingh2240/Al-Powered-Radiation-Safety-Report-Assessment" target="_blank" rel="noopener">Inspect repository <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <aside class="analytics-layer reveal" aria-labelledby="analytics-title">
+          <div class="analytics-intro">
+            <p class="eyebrow">Analytics layer</p>
+            <h3 id="analytics-title">I don’t stop at the pipeline.</h3>
+            <p>I use SQL, Python, Power BI, and Tableau to turn governed datasets into models, measures, and clear decision support.</p>
+          </div>
+          <div class="analytics-flow" aria-label="Analytical workflow from modeling through analysis to communication">
+            <div class="analytics-step">
+              <span>01 / MODEL</span>
+              <strong>Structure the question</strong>
+              <p>Dimensional models, reusable transformations, DAX measures, and trusted definitions.</p>
+            </div>
+            <div class="analytics-step">
+              <span>02 / ANALYZE</span>
+              <strong>Find the signal</strong>
+              <p>Exploratory analysis, performance trends, anomaly investigation, and statistical reasoning.</p>
+            </div>
+            <div class="analytics-step">
+              <span>03 / COMMUNICATE</span>
+              <strong>Make it actionable</strong>
+              <p>Dashboards and reporting experiences designed around the decision—not the chart.</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section experience-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-index reveal"><span>02</span><span>Experience</span></div>
+        <div class="section-heading reveal">
+          <h2 id="experience-title">A trajectory toward intelligent systems.</h2>
+          <p>Professional data engineering, systems research, and a new role in automotive digitalization beginning October 2026.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item timeline-bosch reveal">
+            <div class="timeline-date">OCT 2026 →</div>
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="role-kicker">Bosch · Starts October 2026</div>
+              <h3>Data Engineering Intern</h3>
+              <p class="company">Bosch · Automotive Procurement Digitalization</p>
+              <p>Selected to help build structured data models, automated pipelines, analytics, and trusted data foundations for AI and advanced analytics.</p>
+              <ul class="role-signals"><li>dbt + SQL data modeling</li><li>Data quality tests and reviews</li><li>Power BI analytics</li><li>Cross-functional delivery</li></ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2021 — 2024</div>
+            <div class="timeline-node" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="role-kicker">2.5 years · Bengaluru</div>
+              <h3>Software Engineer</h3>
+              <p class="company">Mphasis Ltd</p>
+              <p>Designed and operated enterprise data pipelines across cloud, analytics, and reporting environments.</p>
+              <div class="impact-grid">
+                <div><strong>35%</strong><span>operational efficiency increase</span></div>
+                <div><strong>30%</strong><span>processing-time reduction</span></div>
+                <div><strong>50TB+</strong><span>datasets managed and queried</span></div>
+                <div><strong>45%</strong><span>reporting performance improvement</span></div>
+              </div>
+              <ul class="role-signals"><li>Azure Data Factory</li><li>Databricks</li><li>Synapse</li><li>Kafka</li><li>Python EDA</li><li>Power BI</li><li>Tableau</li><li>DAX</li></ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section lab-section" id="ai-lab" aria-labelledby="lab-title">
+        <div class="section-index reveal"><span>03</span><span>AI systems lab</span></div>
+        <div class="lab-layout">
+          <div class="lab-intro reveal">
+            <p class="eyebrow">Building toward production AI</p>
+            <h2 id="lab-title">The model is only one component.</h2>
+            <p>My foundation is the infrastructure beneath intelligent systems: ingestion, transformation, quality, orchestration, and monitoring. I’m extending that foundation into retrieval, evaluation, and ML deployment.</p>
+          </div>
+          <div class="lab-board reveal">
+            <div class="lab-board-header"><span>EXPERIMENT QUEUE</span><span>STATUS / 02</span></div>
+            <article class="experiment">
+              <div class="experiment-status status-development">In development</div>
+              <div>
+                <h3>Fleet Intelligence Copilot</h3>
+                <p>A grounded assistant connecting vehicle telemetry with maintenance knowledge through retrieval, citations, and tool-driven queries.</p>
+                <ul class="tags"><li>RAG</li><li>Tool calling</li><li>Evals</li><li>FastAPI</li></ul>
+              </div>
+              <span class="experiment-code">EXP—01</span>
+            </article>
+            <article class="experiment">
+              <div class="experiment-status status-planned">Planned extension</div>
+              <div>
+                <h3>Battery Failure Early Warning</h3>
+                <p>A time-series ML layer for the EV platform, with leakage-aware validation, operational metrics, drift monitoring, and a model card.</p>
+                <ul class="tags"><li>Time series</li><li>MLflow</li><li>Monitoring</li></ul>
+              </div>
+              <span class="experiment-code">EXP—02</span>
+            </article>
+            <p class="lab-note">Status labels are intentional: future work is never presented as completed experience.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section education-section" aria-labelledby="education-title">
+        <div class="section-index reveal"><span>04</span><span>Research &amp; education</span></div>
+        <div class="section-heading reveal">
+          <h2 id="education-title">Engineering depth, across contexts.</h2>
+        </div>
+        <div class="education-grid">
+          <article class="education-card reveal">
+            <span class="education-year">2024 — PRESENT</span>
+            <h3>M.Sc. Research in Computer &amp; Systems Engineering</h3>
+            <p>Technische Universität Ilmenau</p>
+            <span>Software safety · systems engineering · advanced databases · algorithms</span>
+          </article>
+          <article class="education-card reveal">
+            <span class="education-year">2026</span>
+            <h3>Erasmus Exchange · Computer Science</h3>
+            <p>Norwegian University of Science &amp; Technology</p>
+            <span>Software architecture · recommender systems · programming &amp; numerics</span>
+          </article>
+          <article class="education-card reveal">
+            <span class="education-year">2023 — 2024</span>
+            <h3>Postgraduate Diploma · Data Science</h3>
+            <p>IIIT Delhi</p>
+            <span>Statistics · modeling · machine learning · data visualization</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-signal" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+        <p class="eyebrow reveal">Open channel · Germany</p>
+        <h2 id="contact-title" class="reveal">Let’s build reliable systems<br />for consequential data.</h2>
+        <p class="contact-copy reveal">I’m interested in data, platform, and applied-AI engineering work where trustworthy infrastructure matters.</p>
+        <div class="contact-actions reveal">
+          <a class="button button-primary" href="mailto:singhabhisek2240@gmail.com">singhabhisek2240@gmail.com</a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/abhisek-kumar-developer" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="https://github.com/Abhiseksingh2240" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Abhisek Kumar · Data Engineer</span>
+      <span>Built around evidence, clarity, and forward motion.</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
